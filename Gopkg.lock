@@ -2,14 +2,42 @@
 
 
 [[projects]]
+  name = "github.com/gwuhaolin/lightsocks"
+  packages = [
+    "core",
+    "local",
+    "server"
+  ]
+  revision = "527beb49f0c5fe26fa086db469ee50427b16816e"
+  version = "1.0.6"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/mitchellh/go-homedir"
+  packages = ["."]
+  revision = "b8bc1bf767474819792c23f32d8286a45736f1c6"
+
+[[projects]]
+  name = "github.com/phayes/freeport"
+  packages = ["."]
+  revision = "b8543db493a5ed890c5499e935e2cad7504f3a04"
+  version = "1.0.2"
+
+[[projects]]
   name = "github.com/pkg/errors"
   packages = ["."]
   revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
   version = "v0.8.0"
 
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/net"
+  packages = ["proxy"]
+  revision = "22ae77b79946ea320088417e4d50825671d82d57"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "f8155a1c8d4b89bf7907fd37fc7f7dea0ca02c8d9f804babb9e2af98a66988dc"
+  inputs-digest = "b2ff7a9e5a968ab6ae407a2abe6742084a9b4cd2d18ed34c0c2e5fa0e3390f0e"
   solver-name = "gps-cdcl"
   solver-version = 1
